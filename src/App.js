@@ -1,7 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import {Container, Nav, Form, Navbar, NavDropdown, Button, Row, Col, FormControl} from 'react-bootstrap';
+import {Container, Nav, Card, Form, Navbar, NavDropdown, Button, Row, Col, FormControl} from 'react-bootstrap';
 import axios from 'axios';
 
 function runCompiler(e)  {
@@ -39,7 +39,6 @@ function App() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
           <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Statical Models</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Data Science Tools</NavDropdown.Item>
@@ -57,6 +56,7 @@ function App() {
     <header className="App-header">
         <div id = "wrapper">
           <Container>
+          <Card style={{color: "black", width: "100%"}} body>This is some text within a card body.</Card>
             <Row>
               <Col>
                 <Form>
