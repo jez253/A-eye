@@ -13,7 +13,7 @@ export default function NavBar() {
                         <Nav className="mr-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <NavDropdown title="Lessons" id="basic-nav-dropdown">
-                            <LinkContainer to = "/Exercise"></LinkContainer>
+                            <LinkContainer to = "/Exercise">
                                 <NavDropdown.Item href="#action/3.1">
                                     Statical Models
                                 </NavDropdown.Item>
