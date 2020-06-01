@@ -25,7 +25,7 @@ function runCompiler(e)  {
 
 export default function ExerciseBox() {
     return (
-        <div style={{ backgroundColor: "#020D1F", width: "100%", height: "100%" }}>
+        <div style={{ backgroundColor: "#020D1F", width: "100%", height: "75%" }}>
             <Container style={{ backgroundColor: "#020D1F", width: "100%" }}>
             <Card style={{backgroundColor: "white", color: "black", width: "80%"}} body>This is some text within a card body.</Card>
             <div className="listen">
